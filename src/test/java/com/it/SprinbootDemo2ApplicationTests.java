@@ -13,6 +13,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 //当它与yaml中冲突时,以此为准
 class SprinbootDemo2ApplicationTests {
 
+
     @Value("${test.first}")
     private String index;
 //    @Value("${test.second}")
