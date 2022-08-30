@@ -8,6 +8,7 @@ public class SprinbootDemo2Application {
 
     public static void main(String[] args) {
         System.out.println("这是修改测试");
+        System.out.println("这是修改测试2");
         SpringApplication.run(SprinbootDemo2Application.class, args);
     }
 
